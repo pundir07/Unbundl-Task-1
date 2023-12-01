@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Carousel</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">Sofa/Covers</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+<div class="carousel-container">
+    <div class="carousel-track">
+        <div class="carousel-slide">
+            <img src="https://images.pexels.com/photos/1099816/pexels-photo-1099816.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Product 1">
+        </div>
+        <div class="carousel-slide">
+            <img src="https://media.istockphoto.com/id/1161177015/photo/modern-living-room-in-natural-botanical-style.jpg?s=612x612&w=0&k=20&c=h5oNCdES_R68ZbIfA8ez6PDZIBzJJPTulgXGF6WJEIE=" alt="Product 2">
+        </div>
+        <!-- Add more carousel-slide elements for additional products -->
+    </div>
+
+    <div class="carousel-controls">
+        <button class="control-button" onclick="prevSlide()">&#10094;</button>
+        <button class="control-button" onclick="nextSlide()">&#10095;</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
